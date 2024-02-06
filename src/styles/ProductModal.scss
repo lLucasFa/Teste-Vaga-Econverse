@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.product-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    height: 300px;
+    background: #fff;
+    width: 769px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    div {
+      font-family: "Lato", sans-serif;
+      margin-top: 4%;
+
+
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      .quantity-selector {
+        margin-top: auto;
+      }
+
+      .quantity-title {
+        margin-right: 10px;
+      }
+
+      select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      
+      .quantity-selector {
+        display: flex;
+        align-items: center;
+        outline: 2px solid #041E50; 
+        margin: 18px 60% 0 0px;
+        border-radius: 4px;
+
+
+      }
+  
+      .quantity-title {
+        margin-right: 10px;
+      }
+  
+      .quantity-controls {
+        display: flex;
+        align-items: center;
+      }
+  
+      button {
+        margin: 0 0 0 28px;
+        background: #fff;
+        padding: 5px;
+        padding: 6px 0px 8px 0;
+        color: #041E50;
+        cursor: pointer;
+      }
+  
+      .quantity-number {
+        margin: 0 6px 0 28px;
+      }
+
+      .buy-button {
+        background-color: #f71963;
+        color: #fff;
+        padding: 10px 80px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 14px;
+        margin-left: 0px;
+      }
+    }
+
+    }
+  }
+
+
+    .description {
+      font-size: 10px;
+      font-weight: 100;
+    }
+
+    .product-title {
+      font-size: 20px;
+      font-weight: 200;
+      color: #041e50;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #041e50;
+      margin-bottom: 10px;
+      margin-top: 14%;
+      font-weight: bold;  
+    }
+
+    .more-product{
+      font-size: 12px;
+      font-weight: 200;
+      color: #041E50;
+      cursor: pointer;
+
+    }
+
+    button {
+      margin-top: auto;
+      align-self: flex-end;
+      background: #ffff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .button-close{
+      margin-right: 6px;
+      padding: 0 14px 35% 0;
+      cursor: pointer;
+    }
+
+
+    .button-buy {
+      background-color: #F71963;
+      padding: 0 0 0px 70px;
+
+    }
+
